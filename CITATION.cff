@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Reinforcement Learning–Inspired Adjustment Module"
+version: "0.1.0"
+date-released: "2025-09-05"
+authors:
+  - family-names: "Villalobos-Gonzalez"
+    given-names: "Santiago de Jesus"
+    orcid: "https://orcid.org/0009-0004-9601-5617"
+type: software
+abstract: >
+  Reference implementation of a reinforcement learning–inspired weight adjustment
+  rule for portfolio allocation, together with tests and metadata for Zenodo/ORCID
+  integration. The update multiplies previous weights by (1 + eta * reward) and
+  re-normalizes on the simplex, with positivity clipping.
+keywords:
+  - reinforcement learning
+  - portfolio optimization
+  - asset allocation
+  - risk management
+  - quantitative finance
+license: MIT
+repository-code: "https://github.com/USER/REPO"   # <-- replace with your repo URL
+# Add the Zenodo DOI here after your first release:
+identifiers: []
